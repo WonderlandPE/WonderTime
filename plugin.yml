@@ -1,0 +1,16 @@
+name: TimezoneCorrector
+author: MamayAdesu
+api: 1.2.0
+version: "1.1"
+main: mamayadesu\tzc\tzc
+
+commands:
+ timezone:
+  permission: tzc.command
+  description: Select timezone
+  usage: /timezone set <timezone>
+ 
+permissions:
+ tzc.command:
+  default: op
+  description: Allows to use TimezoneCorrector
